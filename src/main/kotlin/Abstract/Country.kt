@@ -1,9 +1,9 @@
 package Abstract
 
-abstract class Country {
+abstract class Country(private val religion: String) {
 
     fun prayingGodProcess() {
-        println("Fold your hands and pray to God.")
+        println("$religion Fold your hands and pray to God")
     }
 
     abstract fun foodPreparingProcess()

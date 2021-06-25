@@ -1,6 +1,6 @@
 package Abstract
 
-class America: Country() {
+class America: Country("American") {
 
     override fun foodPreparingProcess() {
         println("make food in non stick utensils.")
