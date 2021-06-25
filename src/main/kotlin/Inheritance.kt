@@ -3,10 +3,10 @@ open class Person(val name: String, val age: Int) {
 }
 
 open class YoungPerson() {
-    lateinit var name : String
-    constructor(name: String) : this() {
-        this.name = name
-    }
+//    lateinit var name : String
+//    constructor(name: String) : this() {
+//        this.name = name
+//    }
 }
 
 
@@ -16,15 +16,23 @@ class Footballer(name: String, age: Int, val club: String, val totalGoals: Int) 
     }
 }
 
-class Biking : YoungPerson {
-    var topSpeed: Int = -1
-    constructor(name: String, topSpeed: Int) : super(name) {
-        this.topSpeed = topSpeed
-        println("Biker Name - ${this.name} , Top Speed - ${this.topSpeed}")
-    }
+class Biking : YoungPerson() {
+//    var topSpeed: Int = -1
+//    constructor(name: String, topSpeed: Int) : super(name) {
+//        this.topSpeed = topSpeed
+//        println("Biker Name - ${this.name} , Top Speed - ${this.topSpeed}")
+//    }
 }
+
+interface I {
+
+}
+
+data class A(var a: String? = null): I
 
 fun main() {
     //println(Footballer("Monika", 22, "Real Madrid", 10).club)
-    Biking("Monika", 102)
+    //Biking("Monika", 102)
+
+    var biking = YoungPerson()
 }

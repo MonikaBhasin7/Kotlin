@@ -1,0 +1,38 @@
+  Abstract Classes.
+
+
+  How to think which method to keep abstract and which method to keep non-abstract. (think about the startCar() function)
+    -> If your child classes (all child car classes) have the same strategy to start the car. Then make the startCar function non-abstract
+     and define the startCar() function in the abstract Car class.
+    -> If your child classes (all car classes) have the different strategy to start the car. Then make the startCar function abstract
+     and override the startCar() function in every child class.
+
+
+  Why we need Abstract classes??? (Example)
+  -> We have different schools and 5 school have same fee structure and other 5 schools have different fee structure.
+  -> We can think of the interface and make a fun feeStructure() and make 10 different school classes and let different school
+     classes to implement the School interface and implement the feeStructure() function acc to their need.
+     As I have mentioned above 5 schools have same fee structure then why let that 5 schools to override the same function definition
+     again and again. In this case we need Abstract class. We have to make a School, an abstract class and write the definition of the
+     feeStructure() function in the abstract class and let other classes to extend the School class and 5 school classes who having same fee Structue
+     will not override the feeStructure() method but other 5 school classes will override the feeStructure() function acc to its need.
+
+
+
+  Properties of Abstract classes ->
+  1. If one function is abstract in the class then the whole class become abstract.
+  2. Abstract Class are partially defined class.
+  3. Abstract methods have no body when declared.
+  4. Abstract properties cannot be initialized when declared.
+  5. Abstract class can have abstract as well non-abstract methods as well.
+  6. we can not instantiate the abstract class.
+  7. The classes which Inherit/Extend this abstract class, have to implement/define all the abstract methods of the parent abstract class.
+
+
+  Other things about Abstract class ->
+  -> Abstract class is nothing special to look at when you want to differentiate with a regular class.
+     But it has got some methods which are unimplemented, or only declared, not defined.
+     In that case, all those methods and the class itself are renamed with the “abstract” keyword.
+
+
+
