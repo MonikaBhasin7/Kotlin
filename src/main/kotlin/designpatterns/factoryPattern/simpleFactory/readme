@@ -1,0 +1,16 @@
+Restaurant
+     |---> Rice
+     |---> Chole
+     |---> Dosa
+     |---> Idli
+     |---> Steam Rice
+     |---> Fried Rice
+     |---> Uttpam
+     |---> Tikki
+     |---> Spring Roll
+     |---> Samosa
+     |---> Orange Juice
+     |---> Litchi Juice
+
+
+A restaurant prepares these types of dishes. We have to make the OO diagram of these.
