@@ -14,3 +14,38 @@ Restaurant
 
 
 A restaurant prepares these types of dishes. We have to make the OO diagram of these.
+
+First Approach
+
+
+       interface Food
+            - collectItemsForDish()
+            - prepareDish()
+            - garnishDish()
+
+
+       class Rice : Food {
+             override fun collectItemsForDish() {
+             }
+       }
+
+       class Chole : Food {
+       }
+
+
+
+        class FoodFactory {
+
+            fun returnFoodObject() : Food{
+
+            if(type == "Rice") {
+                   return Rice()
+                }
+            }
+
+
+        }
+
+
+
+
