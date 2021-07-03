@@ -1,11 +1,11 @@
-package designpatterns.factoryPattern.simpleFactory
+package designpatterns.factoryPattern
 
-import designpatterns.factoryPattern.simpleFactory.prantha.AalooPrantha
-import designpatterns.factoryPattern.simpleFactory.prantha.GobiPrantha
-import designpatterns.factoryPattern.simpleFactory.prantha.Prantha
-import designpatterns.factoryPattern.simpleFactory.rice.CurdRice
-import designpatterns.factoryPattern.simpleFactory.rice.FriedRice
-import designpatterns.factoryPattern.simpleFactory.rice.Rice
+import designpatterns.factoryPattern.prantha.AalooPrantha
+import designpatterns.factoryPattern.prantha.GobiPrantha
+import designpatterns.factoryPattern.prantha.Prantha
+import designpatterns.factoryPattern.rice.CurdRice
+import designpatterns.factoryPattern.rice.FriedRice
+import designpatterns.factoryPattern.rice.Rice
 
 interface FoodStore {
 

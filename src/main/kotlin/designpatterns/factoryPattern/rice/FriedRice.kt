@@ -1,6 +1,4 @@
-package designpatterns.factoryPattern.simpleFactory.rice
-
-import designpatterns.factoryPattern.simpleFactory.Food
+package designpatterns.factoryPattern.rice
 
 class FriedRice: Rice {
 
