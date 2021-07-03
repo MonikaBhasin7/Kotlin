@@ -6,7 +6,12 @@ import designpatterns.factoryPattern.simpleFactory.rice.Rice
 
 interface FoodStore {
 
-    fun getFoodObject(type: String): Food {
+    fun getFoodObject(type: String): Food
+    fun makeFood(type: String): Rice?
+}
+
+class RiceStore() : FoodStore {
+    override fun getFoodObject(type: String): Food {
         val rice = makeFood(type)
         rice?.removingUnwantedParticles()
         rice?.washing()
@@ -16,11 +21,9 @@ interface FoodStore {
         rice?.cooking()
         rice?.garnishing()
         rice?.serving()
+        return rice as Food
     }
-    fun makeFood(type: String): Rice?
-}
 
-class RiceStore() : FoodStore {
     override fun makeFood(type: String) : Rice? {
         if(type.equals("CurdRice", true)) {
             return CurdRice()

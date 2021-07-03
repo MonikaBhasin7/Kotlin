@@ -2,8 +2,7 @@ package designpatterns.factoryPattern.simpleFactory.rice
 
 import designpatterns.factoryPattern.simpleFactory.Food
 
-class CurdRice: Rice, Food {
-
+class CurdRice: Rice {
 
     override fun washing() {
         println("CurdRice washing.")

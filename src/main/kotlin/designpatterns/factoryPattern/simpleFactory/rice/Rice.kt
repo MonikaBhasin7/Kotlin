@@ -1,6 +1,8 @@
 package designpatterns.factoryPattern.simpleFactory.rice
 
-interface Rice {
+import designpatterns.factoryPattern.simpleFactory.Food
+
+interface Rice: Food {
 
     //non-abstract because removing unwanted particles from the rice will be same for varities of rice, it will be common, no need
     //write it again and again in every Rice class.

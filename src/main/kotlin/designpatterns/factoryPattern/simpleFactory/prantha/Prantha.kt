@@ -1,6 +1,8 @@
 package designpatterns.factoryPattern.simpleFactory.prantha
 
-interface Prantha {
+import designpatterns.factoryPattern.simpleFactory.Food
+
+interface Prantha: Food {
     fun kneadDough()
     fun fillingTheMaterial()
     fun cookingOnTawa()
