@@ -1,4 +1,4 @@
-package designpatterns.builderPattern
+package designpatterns.creational.builderPattern
 
 interface GoldMakingProcess {
     fun melt()

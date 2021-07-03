@@ -1,4 +1,4 @@
-package designpatterns.factoryPattern.rice
+package designpatterns.creational.factoryPattern.rice
 
 class CurdRice: Rice {
 

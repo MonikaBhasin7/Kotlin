@@ -1,0 +1,9 @@
+Adapter Pattern
+
+-> We use it when we want to object of type A and we are getting object of type B....We don't have to change the legacy code of the class which
+   is returning us the object of class B. So, In this case, we will make a middleMan, which take the object of type B (using dependency injection)
+   and implement the interface A and override all the functions of interface A. Som In this way we can convert the object of Type B to Type A.
+
+-> An adapter wraps one of the objects to hide the complexity of conversion happening behind the scenes.
+   The wrapped object isn’t even aware of the adapter. For example, you can wrap an object that operates in meters and kilometers with
+   an adapter that converts all of the data to imperial units such as feet and miles.

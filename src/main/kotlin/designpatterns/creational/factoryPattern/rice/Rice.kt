@@ -1,6 +1,6 @@
-package designpatterns.factoryPattern.rice
+package designpatterns.creational.factoryPattern.rice
 
-import designpatterns.factoryPattern.Food
+import designpatterns.creational.factoryPattern.Food
 
 interface Rice: Food {
 

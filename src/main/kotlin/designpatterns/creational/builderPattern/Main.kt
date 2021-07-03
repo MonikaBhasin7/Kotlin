@@ -1,4 +1,4 @@
-package designpatterns.builderPattern
+package designpatterns.creational.builderPattern
 
 fun main() {
     val jeweller = Jeweller(Ring())

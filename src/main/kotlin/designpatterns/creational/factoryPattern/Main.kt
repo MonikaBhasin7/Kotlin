@@ -1,4 +1,4 @@
-package designpatterns.factoryPattern
+package designpatterns.creational.factoryPattern
 
 
 fun main() {

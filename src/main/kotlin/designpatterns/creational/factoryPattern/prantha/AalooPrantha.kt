@@ -1,6 +1,6 @@
-package designpatterns.factoryPattern.prantha
+package designpatterns.creational.factoryPattern.prantha
 
-import designpatterns.factoryPattern.Food
+import designpatterns.creational.factoryPattern.Food
 
 class AalooPrantha: Prantha, Food {
     override fun kneadDough() {

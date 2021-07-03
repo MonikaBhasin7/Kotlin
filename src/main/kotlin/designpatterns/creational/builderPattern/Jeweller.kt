@@ -1,4 +1,4 @@
-package designpatterns.builderPattern
+package designpatterns.creational.builderPattern
 
 class Jeweller(private val gold: GoldMakingProcess): GoldMakingProcess {
 
