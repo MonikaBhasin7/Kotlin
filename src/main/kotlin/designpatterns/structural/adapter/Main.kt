@@ -5,4 +5,6 @@ fun main() {
     var cooler : Cooler = CoolerAdapter(lg_ac)
     cooler.giveCoolAir()
     cooler.showerWaterInsideTheRoom()
+
+    
 }
