@@ -4,9 +4,9 @@ class FoodCleaningState: FoodState {
 
     lateinit var food : Food
 
-    constructor( food: Food): this() {
-        this.food = food
-    }
+//    constructor( food: Food): this() {
+//        this.food = food
+//    }
 
 
 
